@@ -1,0 +1,43 @@
+import styled from 'styled-components'
+
+const Wrapper = styled.nav`
+  width: 100vw;
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  background: var(--color-primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
+  transition: var(--transition);
+
+  .nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav__logo {
+    width: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .nav__menu {
+    display: flex;
+    gap: 3.5rem;
+  }
+  a {
+    color: white !important;
+  }
+  #theme__icon {
+    background: transparent;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+`
+
+export default Wrapper
