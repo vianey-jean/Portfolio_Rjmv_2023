@@ -2,7 +2,7 @@ import React from 'react'
 import Wrapper from '../assets/wrappers/Apropos'
 import developerImage from '../assets/images/developer.jpg'
 import { aproposData } from '../Moks/data'
-import pdf from '../assets/CV_Jean_Rabemanalina.pdf'
+import pdf from '../assets/CV.pdf'
 import Card from '../components/Card'
 
 const Apropos = () => {
@@ -30,18 +30,17 @@ const Apropos = () => {
             <article className='card apropos__card'></article>
           </div>
           <p>
-          Développeur front-end créatif, autonome et passionné avec 
-          de solides expériences dans la création de sites web . 
-          Titulaires d’un bac+3/4 professionnelles en développeur
-          d'applications React avec OpenClassRooms,
+          Développeur Front-end créatif, autonome et passionné, 
+          avec une solide expérience de création de sites Web. 
+          Titulaires d'un Bac +3/4 professionnel en tant que
+          développeur d'applications React avec OpenClassrooms,
           </p>
           <p>
             <b>
               {' '}
-              maîtrisant parfaitement les langages
-                HTML, CSS, jQuery, Javascript, 
-                React ainsi que les bibliothèques de reporting 
-                Javascript et de frameworks modernes.
+              maîtrisant parfaitement les langages HTML, 
+              CSS, jQuery, JavaScript, React ainsi que des bibliothèques de
+              reporting JavaScript et des frameworks modernes.
             </b>{' '}
           </p>
           <p>
