@@ -45,7 +45,7 @@ export const headerData = [
     icon: <AiOutlineFacebook /> },
   {
     id: 3,
-    link: 'https://www.linkedin.com/in/jean-marie-rabemanalina-aa06571a3/',
+    link: 'https://www.linkedin.com/in/jean-marie-rabemanalina/',
     icon: <AiFillLinkedin />,
   },
   { id: 4, link: 'https://github.com/vianey-jean', icon: <AiFillGithub /> },
