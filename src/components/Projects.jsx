@@ -4,6 +4,7 @@ import Project from './Project'
 const Projects = ({ projects }) => {
   return (
     <div
+    
       className='portfolio__projects'
       data-aos='zoom-in'
       data-aos-delay='100'

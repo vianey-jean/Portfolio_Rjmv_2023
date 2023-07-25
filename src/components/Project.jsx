@@ -8,7 +8,7 @@ const Project = ({ image, title, desc, demo, github }) => {
         <img id="img_port" src={image} alt='projects pic' />
       </div>
       <h4>{title}</h4>
-      <p>{desc}</p>
+      <p id="desc">{desc}</p>
       <div className='portfolio__project-cta'>
         <a
           href={demo}

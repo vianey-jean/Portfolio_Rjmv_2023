@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Card = ({ children, className }) => {
-  return <Wrapper id="port_proj" className={`card ${className}`}>{children}</Wrapper>
+  return <Wrapper  className={`card ${className}`}>{children}</Wrapper>
 }
 
 const Wrapper = styled.article`

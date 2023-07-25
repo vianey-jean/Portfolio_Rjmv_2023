@@ -161,6 +161,9 @@ img {
 #port_proj{
   height: 400px;
 }
+#desc{
+  height: 30px;
+}
 /* GENERAL BUTTON STYLES */
 .btn {
   display: inline-block;
