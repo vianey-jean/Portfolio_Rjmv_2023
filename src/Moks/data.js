@@ -28,6 +28,7 @@ import {
   Image10,
   Image11,
   Image12,
+  Image13,
 } from '../assets/images/index'
 //import icon email
 import { HiOutlineMail } from 'react-icons/hi'
@@ -199,6 +200,14 @@ export const portfolioData = [
     desc: 'Développement app Pomodoro sur React',
     demo: 'https://pomodoroappreact.netlify.app/',
     github: 'https://github.com/vianey-jean/PomodoroApp-React.git',
+  },
+  {
+    id: 13,
+    category: 'react',
+    image: Image13,
+    title: 'Agendas_App',
+    desc: 'Développement app Agendas sur React',
+    github: 'https://github.com/vianey-jean/React-Agenda.git',
   },
 ]
 

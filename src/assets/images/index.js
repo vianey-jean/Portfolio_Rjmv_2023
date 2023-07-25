@@ -10,6 +10,7 @@ import Image9 from './project9.png'
 import Image10 from './project10.png'
 import Image11 from './project11.png'
 import Image12 from './project12.png'
+import Image13 from './project13.png'
 
 export {
   Image1,
@@ -24,4 +25,5 @@ export {
   Image10,
   Image11,
   Image12,
+  Image13,
 }
