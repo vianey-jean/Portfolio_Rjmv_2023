@@ -154,7 +154,13 @@ img {
   width: 100%;
   object-fit: cover;
 }
+#img_port{
+  height: 160px;
+}
 
+#port_proj{
+  height: 400px;
+}
 /* GENERAL BUTTON STYLES */
 .btn {
   display: inline-block;

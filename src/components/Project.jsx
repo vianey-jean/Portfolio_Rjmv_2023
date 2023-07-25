@@ -3,9 +3,9 @@ import Card from './Card'
 
 const Project = ({ image, title, desc, demo, github }) => {
   return (
-    <Card className='portfolio__project'>
+    <Card  className='portfolio__project'>
       <div className='portfolio__project-image'>
-        <img src={image} alt='projects pic' />
+        <img id="img_port" src={image} alt='projects pic' />
       </div>
       <h4>{title}</h4>
       <p>{desc}</p>

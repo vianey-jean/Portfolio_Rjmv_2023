@@ -2,11 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Card = ({ children, className }) => {
-  return <Wrapper className={`card ${className}`}>{children}</Wrapper>
+  return <Wrapper id="port_proj" className={`card ${className}`}>{children}</Wrapper>
 }
 
 const Wrapper = styled.article`
   &.card {
+    
     background: var(--color-white);
     padding: 1.5rem;
     border: 2px solid transparent;
