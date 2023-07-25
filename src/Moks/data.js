@@ -1,9 +1,11 @@
+//import tous les composants utils
 import { FaAward, FaServer, FaWhatsapp } from 'react-icons/fa'
 import { TbBooks, TbCertificate } from 'react-icons/tb'
 import { SiFigma } from 'react-icons/si'
 import { RiReactjsLine } from 'react-icons/ri'
 import { BsPersonFill } from 'react-icons/bs'
 import { MdHomeRepairService } from 'react-icons/md'
+//import tous les icons
 import {
   AiFillLinkedin,
   AiFillGithub,
@@ -12,6 +14,7 @@ import {
   AiFillHome,
   AiOutlineFacebook,
 } from 'react-icons/ai'
+//import images
 import {
   Image1,
   Image2,
@@ -24,9 +27,11 @@ import {
   Image9,
   Image10,
   Image11,
+  Image12,
 } from '../assets/images/index'
+//import icon email
 import { HiOutlineMail } from 'react-icons/hi'
-
+//exportation des données sur profil
 export const aproposData = [
   { id: 1, icon: <FaAward />, title: 'Experience', desc: '2+ ans de Formation intensif ' },
   { id: 2, icon: <TbBooks />, title: 'Projets', desc: '14+ Complet' },
@@ -185,6 +190,15 @@ export const portfolioData = [
     desc: 'Développement app ToDo sur React',
     demo: 'https://to-do-app-sage-kappa.vercel.app/',
     github: 'https://github.com/vianey-jean/ToDoApp.git',
+  },
+  {
+    id: 12,
+    category: 'mini-project',
+    image: Image12,
+    title: 'PomodoroApp',
+    desc: 'Développement app Pomodoro sur React',
+    demo: 'https://pomodoroappreact.netlify.app/',
+    github: 'https://github.com/vianey-jean/PomodoroApp-React.git',
   },
 ]
 
