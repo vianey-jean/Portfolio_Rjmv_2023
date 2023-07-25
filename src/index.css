@@ -88,7 +88,7 @@ main {
 
 /* GENERAL SECTION STYLES */
 section {
-  padding: 7rem 0;
+  padding: 5rem 0;
   background: var(--color-light);
   transition: var(--transition);
 }
