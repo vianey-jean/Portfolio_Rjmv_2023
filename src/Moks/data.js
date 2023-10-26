@@ -29,6 +29,7 @@ import {
   Image11,
   Image12,
   Image13,
+  Image14,
 } from '../assets/images/index'
 //import icon email
 import { HiOutlineMail } from 'react-icons/hi'
@@ -208,6 +209,15 @@ export const portfolioData = [
     title: 'Agendas_App',
     desc: 'Développement app Agendas sur React',
     github: 'https://github.com/vianey-jean/React-Agenda.git',
+  },
+  {
+    id: 14,
+    category: 'react',
+    image: Image14,
+    title: 'Youtube_App',
+    desc: 'Développement app Youtube clone sur React',
+    demo:'https://youtubes-react.vercel.app/',
+    github: 'https://github.com/vianey-jean/Youtube-clone-react',
   },
 ]
 
