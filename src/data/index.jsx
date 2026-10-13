@@ -171,7 +171,7 @@ export const timeline = [
   },
   {
     id: 2, icon: LuGraduationCap, type: 'Formation',
-    title: "Développeur d'application JavaScript React",
+    title: "Développeur Concepteur Logiciel",
     place: 'OpenClassrooms — niveau Bac +3/4',
     period: '2+ ans de formation intensive',
     desc: "Parcours professionnalisant : 14 projets complets (React, Redux, API, accessibilité, tests, animations CSS) validés par des soutenances.",
