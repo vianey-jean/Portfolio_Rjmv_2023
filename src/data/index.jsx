@@ -82,7 +82,7 @@ export const navLinks = [
 /* ------------------------------------------------------------------ */
 export const stats = [
   { id: 1, value: 2, suffix: '+', label: "Ans de formation intensive" },
-  { id: 2, value: 14, suffix: '+', label: 'Projets réalisés' },
+  { id: 2, value: 16, suffix: '+', label: 'Projets réalisés' },
   { id: 3, value: 2, suffix: '', label: 'Certifications' },
   { id: 4, value: 100, suffix: '%', label: 'Engagement & passion' },
 ]
