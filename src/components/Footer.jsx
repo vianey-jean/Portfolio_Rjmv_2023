@@ -104,7 +104,7 @@ export default function Footer() {
 
       {/* Mot géant décoratif */}
       <div aria-hidden="true" className="pointer-events-none select-none overflow-hidden text-center font-display text-[22vw] font-bold leading-[0.75] tracking-tighter text-fg/[0.04] sm:text-[17vw]">
-        RJMV
+        RJMV-2026
       </div>
     </footer>
   )

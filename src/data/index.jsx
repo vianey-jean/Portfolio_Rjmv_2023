@@ -39,7 +39,7 @@ export const profile = {
   name: 'Jean RABEMANALINA',
   shortName: 'RJMV',
   title: 'Développeur Front-end React',
-  roles: ['Développeur Front-end', 'Développeur React', 'Intégrateur web', 'UI / UX Designer'],
+  roles: ['Développeur Front-end', 'Développeur Concepteur Logiciel', 'Intégrateur web', 'UI / UX Designer'],
   tagline:
     "Je conçois des sites et applications web modernes, rapides et responsive — de la maquette Figma jusqu'à la mise en ligne.",
   email: import.meta.env.VITE_CONTACT_EMAIL || 'vianey.jean1@gmail.com',
@@ -190,7 +190,7 @@ export const timeline = [
 ]
 
 export const education = [
-  { id: 1, title: "Développeur d'application JavaScript React", school: 'OpenClassrooms', level: 'Bac +3/4' },
+  { id: 1, title: "Développeur Concepteur Logiciel", school: 'OpenClassrooms', level: 'Bac +3/4' },
 ]
 
 /* ------------------------------------------------------------------ */
@@ -223,8 +223,9 @@ export const categories = [
   { id: 'react', label: 'React' },
   { id: 'javascript', label: 'JavaScript' },
   { id: 'mini-project', label: 'Mini-projets' },
+  { id: 'react/Vite', label: 'React/Vite' },
   { id: 'npm', label: 'npm' },
-  { id: 'php', label: 'PHP' },
+  { id: 'php', label: 'PHP' },  
 ]
 
 export const projects = [

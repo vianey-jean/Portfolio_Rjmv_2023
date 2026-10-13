@@ -91,7 +91,7 @@ function Hero() {
           </motion.div>
           <motion.div initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 1.4 }} className="absolute -right-5 top-12 flex items-center gap-2 rounded-2xl glass px-4 py-3 shadow-xl">
             <LuSparkles className="text-accent" />
-            <span className="text-sm font-semibold">14+ projets</span>
+            <span className="text-sm font-semibold">16+ projets</span>
           </motion.div>
         </div>
       </motion.div>
