@@ -27,6 +27,8 @@ import p11 from '../assets/images/project11.webp'
 import p12 from '../assets/images/project12.webp'
 import p13 from '../assets/images/project13.webp'
 import p14 from '../assets/images/project14.webp'
+import p15 from '../assets/images/project15.webp'
+import p16 from '../assets/images/project16.webp'
 
 export { imgPortrait, imgDev }
 
@@ -254,6 +256,10 @@ export const projects = [
     github: 'https://github.com/vianey-jean/React-Agenda.git' },
   { id: 14, category: 'react', image: p14, title: 'YouTube App', desc: 'Clone de YouTube développé avec React', tags: ['React', 'API', 'Clone'],
     demo: 'https://youtubes-react.vercel.app/', github: 'https://github.com/vianey-jean/Youtube-clone-react' },
+  { id: 15, category: 'react/Vite', image: p15, title: 'Gestion Ventes', desc: 'Clone de YouTube développé avec React', tags: ['React', 'API', 'Clone'],
+    demo: 'https://riziky-gestion-ventes.vercel.app/', github: 'https://github.com/vianey-jean/gestion-ventes' },
+  { id: 16, category: 'react/Vite', image: p16, title: 'e-commerce Riziky Boutic', desc: 'Clone de YouTube développé avec React', tags: ['React', 'API', 'Clone'],
+    demo: 'https://riziky-boutic.vercel.app/', github: 'https://github.com/vianey-jean/Riziky-Boutic' },
 ]
 
 /* ------------------------------------------------------------------ */
