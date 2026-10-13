@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#7c3aed" />
+    <title>Jean RABEMANALINA — Développeur Front-end React</title>
+    <meta name="description" content="Portfolio de Jean RABEMANALINA, développeur Front-end React : sites web modernes, responsive et performants." />
+    <meta property="og:title" content="Jean RABEMANALINA — Développeur Front-end React" />
+    <meta property="og:description" content="Sites web et applications React modernes, rapides et accessibles." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..800&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400..700&display=swap" rel="stylesheet" />
+    <script>
+      // Applique le thème avant le premier rendu (évite le flash blanc)
+      try {
+        var t = localStorage.getItem('rjmv-theme')
+        var dark = t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (dark) document.documentElement.classList.add('dark')
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Veuillez activer JavaScript pour afficher ce portfolio.</noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

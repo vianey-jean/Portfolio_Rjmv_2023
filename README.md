@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Portfolio — Jean RABEMANALINA (v2)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Refonte complète du portfolio : **React 19 · Vite 8 · Tailwind CSS 4 · Motion · React Router 7 · Lenis**.
 
-## Available Scripts
+## Démarrage
 
-In the project directory, you can run:
+```bash
+npm install
+npm run dev        # http://localhost:5173
+npm run build      # build de production dans /dist
+npm run preview    # prévisualiser le build
+```
 
-### `npm start`
+Node.js ≥ 20.19 (ou ≥ 22.12) requis.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Route | Contenu |
+|---|---|
+| `/` | Accueil : hero animé, technologies, chiffres, services, projets à la une, méthode, FAQ |
+| `/a-propos` | Présentation, CV, valeurs, boîte à outils, formation |
+| `/experience` | Timeline animée, expertises, stack technique |
+| `/portfolio` | 14 projets : filtres par catégorie, recherche, fenêtre de détail |
+| `/contact` | Formulaire de contact + coordonnées + réseaux sociaux |
 
-### `npm test`
+## Formulaire de contact → e-mail
 
-Launches the test runner in the interactive watch mode.\
-See the section apropos [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Au clic sur **Envoyer**, le message est transmis par e-mail à **vianey.jean1@gmail.com**
+via [FormSubmit](https://formsubmit.co) (service gratuit, sans serveur à maintenir).
 
-### `npm run build`
+> ⚠️ **Activation (une seule fois)** : lors du tout premier envoi, FormSubmit envoie un e-mail
+> de confirmation à vianey.jean1@gmail.com. Cliquez sur le lien d'activation dans cet e-mail
+> (pensez à vérifier les spams) : tous les messages suivants arriveront ensuite directement.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+L'adresse destinataire se change dans `.env` (copier `.env.example`) via `VITE_CONTACT_EMAIL`,
+ou dans `src/data/index.jsx` (`profile.email`).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Personnaliser le contenu
 
-See the section apropos [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Tout le contenu est centralisé dans **`src/data/index.jsx`** : profil, réseaux sociaux,
+compétences, parcours, projets, FAQ. Les liens Instagram, X, YouTube, Telegram, Discord
+et TikTok pointent vers la page d'accueil de chaque réseau : remplacez-les par vos vrais profils.
 
-### `npm run eject`
+Le CV se trouve dans `public/CV_Jean_Rabemanalina.pdf`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Fonctionnalités
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Mode clair / sombre (interrupteur dans la navbar, animation circulaire, mémorisé, respecte le thème système)
+- Navbar flottante « glass » qui se masque au scroll + menu mobile plein écran
+- Footer moderne : CTA magnétique, bandeau de technologies, 11 icônes de réseaux sociaux
+- Animations : preloader, barre de progression, défilement fluide (Lenis), transitions de pages,
+  révélations au scroll, titres mot par mot, machine à écrire, effet magnétique, cartes 3D avec halo,
+  compteurs, marquees, timeline liée au scroll, parallax, aurores animées, halo + anneau de curseur
+- Respect de `prefers-reduced-motion`, accessibilité clavier, balises ARIA
+- Images converties en WebP (≈ 90 % plus légères)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Déploiement
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Netlify (`public/_redirects`) et Vercel (`vercel.json`) sont déjà configurés pour le routage SPA.
